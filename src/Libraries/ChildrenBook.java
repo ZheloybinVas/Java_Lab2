@@ -3,7 +3,7 @@ package Libraries;
 public class ChildrenBook extends Book{
     private int age;
 
-    public void setAge(int voz){this.age=age;}
+    public void setAge(int age){this.age=age;}
 
     public int getAge(){return age;}
 
@@ -18,5 +18,6 @@ public class ChildrenBook extends Book{
     public ChildrenBook(String author,String name,double price,int year,int age){
         super(author,name,price,year);
         this.age=age;
+        System.out.println("fff");
     }
 }
