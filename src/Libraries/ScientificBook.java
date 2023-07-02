@@ -1,6 +1,6 @@
 package Libraries;
 
-public class ScientificBook extends Book{
+public class ScientificBook extends Book {
     private double indcet;
 
     public void setIndcet(double ind){indcet=ind;}
